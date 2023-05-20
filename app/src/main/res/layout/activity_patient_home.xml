@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".PatientHome">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Welcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView5"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="140dp"
+            android:layout_height="127dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/bookappointment" />
+
+        <Button
+            android:id="@+id/bookappointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Your Appointment"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_corners"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/appointment"
+            android:layout_below="@+id/bookappointment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/checkappointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Your Appointments"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_corners"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="133dp"
+            android:layout_height="124dp"
+            app:srcCompat="@drawable/map"
+            android:layout_below="@+id/checkappointment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/covidcenters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Covid-19 Testing Centers"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_corners"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="140dp"
+            android:layout_height="155dp"
+            android:layout_below="@+id/covidcenters"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/downloaddocument" />
+
+        <Button
+            android:id="@+id/ViewDocumentspat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Documents"
+            android:layout_below="@+id/imageView8"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_corners"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ViewDocumentspat"
+            android:layout_marginTop="60dp"/>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

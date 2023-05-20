@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.example.e_clinic">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/web_hi_res_512"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EClinic"
-        tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
+        android:theme="@style/Theme.EClinic">
+        <activity android:name=".Blogs.Blog5" />
+        <activity android:name=".Blogs.Blog4" />
+        <activity android:name=".Blogs.Blog3" />
+        <activity android:name=".Blogs.Blog2" />
+        <activity android:name=".Blogs.Blog1" />
+        <activity android:name=".Blogs.BlogPage" />
+        <activity android:name=".ViewDocuments" />
+        <activity android:name=".SelectDoctor" />
+        <activity android:name=".Register" />
+        <activity android:name=".PatientHome" />
+        <activity android:name=".Login" />
+        <activity android:name=".HistoryAppointment" />
+        <activity android:name=".EnterDocument" />
+        <activity android:name=".DoctorHome" />
+        <activity android:name=".CheckAppointment" />
+        <activity android:name=".CenterLocation" />
+        <activity android:name=".BookAppointment" />
+        <activity android:name=".AppointmentBooked" />
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +48,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

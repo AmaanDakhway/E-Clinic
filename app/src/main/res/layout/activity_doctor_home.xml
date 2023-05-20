@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".DoctorHome">
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView22"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView28"
+        android:layout_centerHorizontal="true">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/appointment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/checkappointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Check Appointment"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/checkappointment"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/document" />
+
+    <Button
+        android:id="@+id/enterdocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Documnets"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="161dp"
+            android:layout_height="153dp"
+            android:layout_below="@id/enterdocument"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/downloaddocument" />
+
+    <Button
+        android:id="@+id/ViewDocumentsdoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download Documents"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ViewDocumentsdoc"
+            android:layout_marginTop="60dp"/>
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.Blog4"
+    android:background="@drawable/bg3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/img5" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="International Yoga Day 2019"
+                android:textSize="25sp" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="260dp"
+                android:text="21st June is celebrated as International Yoga Day. Although its International Day but India is the only country where millions of people celebrate across India from Himalayas, Siachen Glacier to Kerala and from west to east.\n\n
+No other Country celebrates International Yoga day as much as India except few instances in some countries."
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="380dp"
+                android:src="@drawable/img6" />
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="600dp"
+                android:text="Yoga is like music,\n\n
+The rhythm of the body,\n\n
+The melody of the mind and\n\n
+Harmony of the soul that creates the symphony of life.\n\n
+Yoga is not just doing some exercise, it is much more. It is to expand your awareness, sharpen your intellect and expand your intuitive ability.\n\n
+Add years to your life and life to your years just by embracing yoga in your life.\n\n
+Yoga is 99% practice and 1% theory.\n\n
+Have a healthy Yoga Day!\n\n
+Join hands with yoga to disconnect with stress, diseases and dull life…\n\n
+Let’s make a posture and not a pose.\n\n
+Whatever you do in life, Yoga shows you how to do it better.\n\n
+Yoga teaches us to cure what need not be endured and endure what cannot be cured.\n\n
+Yoga is that light, which, if you can lit once will never get dimmed, the more you practice, the brighter the flame will be.\n\n
+Become friends with happiness and health with yoga and meditation….\n\n
+Join hands with yoga to disconnect with stress, diseases and dull life….:\n\n
+Free from illness, a path to wellness that is the path of yoga.\n\n
+Yoga is the fountain of youth. You are only young as your spine is flexible.\n\n
+From Dehradun to dublin, Shanghai to chicago, Jakarta to johannesburg yoga has become a positive influence in lives of millions.\n\n
+Yoga is the 5000 year old Indian physical, mental and spiritual practice that aims to transform body and mind."
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1300dp"
+                android:gravity=""
+                android:text="Major Yoga styles and their benefits:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1340dp"
+                android:layout_marginBottom="30dp"
+                android:text=" Hatha Yoga - Physical and mental strength\n\n
+Asthanga Yoga - Weight loss, overall fitness\n\n
+Bikram Yoga - Proper alignment and joint flexibility\n\n
+Vinyasa Yoga - Synchronises body movement with breathing\n\n
+Power Yoga - Strength and flexibility\n\n
+Kundalini Yoga - Spiritual and physical well being\n\n
+Iyengar Yoga - Stability, Mobility, strength and Flexibility\n\n
+Restorative Yoga - Low paced: for stress related illness\n\n
+Kripalu Yoga - Relaxation, Spiritual well being"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

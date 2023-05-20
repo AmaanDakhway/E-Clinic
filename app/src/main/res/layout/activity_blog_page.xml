@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.BlogPage"
+    android:background="@drawable/bg2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blog"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/aclonica"/>
+
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/line"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"/>
+
+
+            <TextView
+                android:id="@+id/fact1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun Dental Facts - 1"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/line1"
+                android:onClick="txt_one"
+                android:fontFamily="@font/aclonica"/>
+
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________________________________"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="03dp"
+                android:layout_below="@+id/fact1"/>
+
+
+            <TextView
+                android:id="@+id/fact2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun Dental Facts - 2"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/line2"
+                android:onClick="txt_two"
+                android:fontFamily="@font/aclonica"/>
+
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________________________________"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="03dp"
+                android:layout_below="@+id/fact2"/>
+
+
+            <TextView
+                android:id="@+id/eat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What to eat and when"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/line3"
+                android:textColor="#000"
+                android:onClick="txt_three"
+                android:fontFamily="@font/aclonica"/>
+
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________________________________"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="03dp"
+                android:layout_below="@+id/eat"/>
+
+
+            <TextView
+                android:id="@+id/yoga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="International Yoga Day 2019"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/line4"
+                android:textColor="#000"
+                android:onClick="txt_four"
+                android:fontFamily="@font/aclonica"/>
+
+
+            <TextView
+                android:id="@+id/line5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________________________________"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="03dp"
+                android:layout_below="@+id/yoga"/>
+
+
+            <TextView
+                android:id="@+id/teeth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teeth Whitening"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/line5"
+                android:textColor="#000"
+                android:onClick="txt_five"
+                android:fontFamily="@font/aclonica"/>
+
+            <TextView
+                android:id="@+id/line6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________________________________"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="03dp"
+                android:layout_below="@+id/teeth"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

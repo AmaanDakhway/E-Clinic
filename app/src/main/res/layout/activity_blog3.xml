@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.Blog3"
+    android:background="@drawable/bg3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="175dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/img4" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="What to Eat and When"
+                android:textSize="25sp" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="260dp"
+                android:text="Nutrient timing is a planned alteration of macronutrient intake in order to promote health, workout performance, and get/stay lean.\n\n
+Nutrient timing strategies are based on how the body handles different types of food at different times. One of the most important nutrient timing principles is that it’s best to eat most non-fruit and veggie carbohydrates during and after exercise.\n\n
+Many factors influence energy balance, with the laws of thermodynamics being the most important determinants of weight gain and weight loss. Yes, this means how much we eat is priority #1 when changing body composition."
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="475dp"
+                android:gravity=""
+                android:text="Here are the Best foods you can eat in the morning –"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginBottom="30dp"
+                android:text="Eggs -  are undeniably healthy and delicious. Studies have shown that eating eggs at breakfast increases feelings of fullness, reduces calorie intake at the next meal and helps maintain steady blood sugar and insulin levels.\n\n
+In one study, men who ate eggs for breakfast felt more satisfied and took in fewer calories during the rest of the day than those who consumed a bagel.\n\n
+Additionally, egg yolks contain lutein and zeaxanthin. These antioxidants help prevent eye disorders like cataracts and macular degeneration. Eggs are also one of the best sources of choline, a very important nutrient for brain and liver health. Though high in cholesterol, eggs don't raise cholesterol levels in most people.\n\n
+Greek Yogurt - Greek yogurt is creamy, delicious and nourishing. It’s made by straining whey and other liquid from milk curds, which produces a creamier yogurt that is more concentrated in protein. Protein has been shown to reduce feelings of hunger and has a higher thermic effect than fat or carbs.\n\n
+The term “thermic effect” refers to the increase in metabolic rate that occurs after eating. Yogurt and other dairy products can also help with weight control because they increase levels of hormones that promote fullness, including PYY and GLP-1.\n\n
+Coffee - is an amazing beverage to start your day. It's high in caffeine, which has been shown to improve mood, alertness and mental performance. Even small amounts of caffeine can achieve these effects.\n\n
+An analysis of 41 studies found the most effective dose to be 38–400 mg per day to maximize the benefits of caffeine while reducing side effects. This is roughly 0.3 to 4 cups of coffee per day, depending on the coffee’s strength. Caffeine has also been shown to increase metabolic rate and fat burning. In one study, 100 mg of caffeine per day helped people burn an extra 79–150 calories over a 24-hour period.\n\n
+Oatmeal  - is the best breakfast choice for cereal lovers. It’s made from ground oats, which contain a unique fiber called oat beta-glucan. This fiber has many impressive health benefits, including reduced cholesterol.\n\n
+What’s more, oat beta-glucan is a viscous fiber that promotes feelings of fullness. One study found that it increased levels of the fullness hormone PYY and that higher doses had the greatest effect. Oats are also rich in antioxidants, which protect their fatty acids from becoming rancid. These antioxidants may also benefit heart health and decrease blood pressure.\n\n
+Chia seeds - are extremely nutritious and one of the best sources of fiber around. In fact, one ounce (28 grams) of chia seeds provides an impressive 11 grams of fiber per serving. What’s more, a portion of the fiber in chia seeds is viscous fiber, which absorbs water, increasing the volume of food moving through your digestive tract and helping you feel full and satisfied.\n\n
+In a small, 12-week study, people with diabetes who ate chia seeds experienced reduced hunger, along with improvements in blood sugar and blood pressure. Chia seeds are also high in antioxidants, which protect your cells from unstable molecules called free radicals that are produced during metabolism. In another study of people with diabetes, chia seeds decreased the inflammatory marker CRP by 40%. Elevated CRP is a major risk factor for heart disease.\n\n
+Berries - are delicious and packed with antioxidants. Popular types include blueberries, raspberries, strawberries and blackberries. They’re lower in sugar than most fruits, yet higher in fiber.\n\n
+n fact, raspberries and blackberries each provide an impressive 8 grams of fiber per cup or 120 and 145 grams, respectively. What’s more, one cup of berries contains only 50–85 calories depending on the type. Berries also pack antioxidants called anthocyanins, which protect your heart and may help you age better.\n\n
+Nuts - are tasty, satisfying and nutritious. They’re a great addition to your breakfast, as they’re filling and help prevent weight gain. Even though nuts are high in calories, studies suggest you don’t absorb all the fat in them.\n\n
+In fact, your body only absorbs about 129 calories of a 1-ounce (28-gram) serving of almonds. This may be true for some other nuts as well, though at this time only almonds have been tested."
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

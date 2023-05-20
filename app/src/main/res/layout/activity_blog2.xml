@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.Blog2"
+    android:background="@drawable/bg3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/facts"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun Dental Fact - 2"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="400dp"
+                android:layout_height="175dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/facts"
+                android:src="@drawable/img2"/>
+            <TextView
+                android:id="@+id/t1"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Your teeth are hard on the outside and soft on the inside . The hard, white part that  you can see is called ‘enamel.’ Your enamel means that you can chew food without hurting the soft part underneath."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_below="@+id/img1"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/t2"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Teeth are the hardest part of your body , even harder than bones!"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/t3"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Although teeth and bones look the same colour and are hard, teeth aren’t bones."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"
+                android:layout_below="@+id/t2"/>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_below="@+id/t3"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Rats’ teeth are constantly growing , causing them to feel a permanent itch. That is why they are constantly nibbling and gnawing on everything they can get their paws on! Once your baby teeth fall out, you will grow your adult teeth, which last forever."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t5"
+                android:layout_below="@+id/t4"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Sweets and candy make a bad acid in your mouth which hurts teeth. Make sure you brush for two minutes every time you do your teeth to   keep them nice and healthy."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t6"
+                android:layout_below="@+id/t5"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Your mouth will make enough saliva in your lifetime to fill two swimming pools!"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t7"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\7. You use four different types of teeth in your mouth to eat: incisors, canine, premolars and molars."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_below="@+id/t6"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/t8"
+                android:layout_below="@+id/t7"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. A t-rex dinosaur had 60 teeth , but you only have about 20!"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Nobody else in the whole world has the same shapes of teeth as you — your smile is special."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:id="@+id/t9"
+                android:layout_below="@+id/t8"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t10"
+                android:layout_below="@+id/t9"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We smile, we talk, we eat… but how? It is our teeth that helps us do all these things and almost everyone of us have a habit of taking our ivories for granted. Perhaps our teeth are the most ignored ones in our entire body. It is about time that we start taking care of our teeth before it is  too late! We really cannot push you about oral hygiene because that’s a  matter of personal choice but we can definitely give you a list of 30 interesting human teeth facts that you will perhaps enjoy reading."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/t11"
+                android:layout_below="@+id/t10"
+
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just a heads up, these 10 facts are going to cover some serious and some fun facts. If you expect only serious stuff, you may find this a little disappointing."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_below="@+id/t11"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img3"/>
+            <TextView
+                android:id="@+id/t12"
+                android:layout_below="@+id/img2"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interesting Human teeth facts –"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/t13"
+                android:layout_below="@+id/t12"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Humans get only two sets of teeth throughout their lifetime. The first set is the baby teeth with only 20 teeth in the set. The second teeth is dubbed as the adult teeth with 32 teeth in the set."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t14"
+                android:layout_below="@+id/t13"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Teeth start forming way before birth. To be more specific, foundation   of teeth are laid during the foetal stage."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t15"
+                android:layout_below="@+id/t14"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Despite the fact that teeth start forming long before birth, they don’t really show up until the baby is born and attains the age of about 6 months."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t16"
+                android:layout_below="@+id/t15"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. The tooth enamel is hardest known substance in entire human body."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/t17"
+                android:layout_below="@+id/t16"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. The plaque formed on our teeth is known to have more than 300 different species of bacteria. Unfortunately, they aren’t the healthy ones."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t18"
+                android:layout_below="@+id/t17"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. On an average, a person spends around 38 days in his/her entire lifetime for brushing teeth."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t19"
+                android:layout_below="@+id/t18"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Only one-third of the teeth can be seen. The remaining two-third is hidden inside the gums."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t20"
+                android:layout_below="@+id/t19"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Several diseases have connection to oral health such as diabetes, osteoporosis and heart disease."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t21"
+                android:layout_below="@+id/t20"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Just like fingerprints, teeth are also unique to every human being. No two humans will have identical teeth."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"/>
+            <TextView
+                android:id="@+id/t22"
+                android:layout_below="@+id/t21"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. There are different types of teeth and each type has a specific function. For example, incisors are meant for biting of pieces from food, canines are meant for holding and tearing apart the food while molars    are meant for grinding the food."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.Blog1"
+    android:background="@drawable/bg3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/img1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun Dental Fact - 1"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Americans buy more than 14 million gallons of toothpaste every year."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/aclonica"
+                android:text="\u2022 Coconuts are a natural anti-bacterial food and can help reduce the risk  of developing gum disease and cavities."
+                android:textColor="#000"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 25% of adults DO NOT brush twice a day. This increases their risk of developing tooth decay by 33%."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="370dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Roughly 75% of school children worldwide have active dental cavities."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="410dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 48% of young adults have untagged themselves from a photo on Facebook because of their smile."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="440dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 90% of a bad breath smell originates in the mouth."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="480dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 People who smoke are 2-7 times more likely to develop periodontal disease than non-smokers."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="510dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 It was customary during the middle ages to kiss a donkey if you had a toothache."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="550dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Tooth enamel is the hardest structure in the human body."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="590dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Roughly 25% of American adults have no teeth."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="620dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 The average human being produces 100,000 gallons of saliva during their lifetime."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="650dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Tooth decay is the second most common disease, second only to the common cold."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="690dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 People prefer blue toothbrushes to red ones."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="730dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Teeth start to form before we are born."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="760dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Almost 65 million American adults have some form of periodontal disease. Of this number 38.4% are women, 56.4% are men."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="790dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Expectant mothers with poor oral hygiene are 7X more likely to deliver premature and low birth weight babies."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="830dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 People with periodontal disease are 2X more likely to develop heart disease."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="870dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 People who drink 3 or more cans of pop daily have 62% more tooth decay, fillings, and tooth loss than people that don’t drink pop."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="910dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 The first toothbrush with bristles was made in China in 1498. Bristles from hogs, horses, and badgers were used."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="950dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Replacing a toothbrush after illnesses helps prevent the potential for re-infection."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="990dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 It takes 43 muscles to frown. It only takes 17 to smile."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="1030dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 61% of adults are attracted to somebody by their smile alone."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="1060dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 An apple a day may keep the doctor away, but it also makes you 3X more likely to develop dental decay."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="1090dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Kids miss 51 million school hours a year due to dental related illnesses."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="1130dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u2022 By drinking one can of soda daily, the average American gains 15 lbs. each year."
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_marginTop="1160dp"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

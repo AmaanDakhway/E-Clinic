@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs.Blog5"
+    android:background="@drawable/bg3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/img7" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Teeth whitening"
+                android:textSize="25sp" />
+
+            <TextView
+                android:fontFamily="@font/aclonica"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="290dp"
+                android:text="Teeth Whitening or Teeth Bleaching is a very common procedure carried out nowadays. It helps you lighten the shade of your teeth and enhances your looks.\n\n
+According to studies, people notice your teeth first, compared to any other part of your face, and whiter teeth surely help you a lot. It is a painless and non-invasive procedure which helps you look good.\n\n
+The effect of Bleaching stays for a long time, depending on your food habits. There are no side-effects, except the fact that some patients get slight sensitivity for a few days, but that also subsides in a few days. Thus, Bleaching does not harm your teeth in any way, but in fact helps you to look good.\n\n
+"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
